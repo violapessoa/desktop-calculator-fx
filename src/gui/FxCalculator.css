@@ -1,0 +1,33 @@
+.evaluate-button {
+    -fx-background-color : linear-gradient(to right,#2596be, #1e7898);
+    -fx-background-radius : 30
+}
+
+.evaluate-button:hover {
+    -fx-background-color : linear-gradient(to right,#51abcb, #39788e);
+    -fx-background-radius : 30;
+}
+
+.evaluate-button:pressed {
+    -fx-background-color : linear-gradient(to right,#1a6985, #124a5d);
+    -fx-background-radius : 30;
+}
+
+.delete-variable-button {
+    -fx-background-color : linear-gradient(to right,#2596be, #1e7898);
+    -fx-background-radius : 30;
+}
+
+.delete-variable-button:hover {
+    -fx-background-color : linear-gradient(to right,#51abcb, #39788e);
+    -fx-background-radius : 30;
+}
+
+.delete-variable-button:pressed {
+    -fx-background-color : linear-gradient(to right,#1a6985, #124a5d);
+    -fx-background-radius : 30;
+}
+
+.anchor{
+    -fx-background-color : linear-gradient(to right,#1d3557, #14253d);
+}
