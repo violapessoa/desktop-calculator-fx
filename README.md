@@ -1,18 +1,25 @@
-# Desktop Calculator
-
-**Languages:** Java, JavaFX
+# Desktop Calculator (Java, JavaFX)
 
 ## Overview
-A JavaFX-based desktop calculator capable of evaluating algebraic expressions, including variables. Integrates computational logic provided by the professor (lexer, token, and AST classes in C++) into a functional, user-friendly interface.
+A JavaFX desktop calculator application capable of evaluating algebraic expressions, including variables. Built with a responsive GUI and robust error handling for invalid expressions, division by zero, and undefined variables. The project leverages multithreading to ensure a smooth user experience.
+
+> Note: The `AstNode`, `Lexer`, and `TokenStream` classes were provided by my professor and form the core parsing logic.
 
 ## Features
-- Intuitive **JavaFX GUI** for entering expressions and viewing results.
-- Evaluates algebraic expressions using provided **C++ lexer, token, and AST logic**.
-- Supports variable assignment and deletion (`x = 5`, `all` to clear variables).
-- Provides **real-time feedback** for divide-by-zero, undefined variables, and syntax errors.
-- Handles user interactions via keyboard or button clicks, including backspace, clear entry, and arithmetic operations.
+- Evaluate arithmetic expressions with addition, subtraction, multiplication, division, and modulo.
+- Support for variables and assignment.
+- Error detection for invalid input, division by zero, and undefined variables.
+- Responsive GUI with input field, result display, and error messages.
+- Buttons for digits, operations, and calculator functions (clear, backspace, delete variable).
 
-## Project Highlights
-- Integrated pre-existing computational classes into a JavaFX application.
-- Developed **robust input validation** and user feedback mechanisms.
-- Created a responsive interface that maintains focus and caret for efficient user input.
+## Technologies
+- **Java 17**
+- **JavaFX 23**
+- FXML for GUI layout
+- Object-oriented design principles
+- Multithreading for responsive UI
+
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/desktop-calculator.git
